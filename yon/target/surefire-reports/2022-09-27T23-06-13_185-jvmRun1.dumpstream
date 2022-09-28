@@ -1,0 +1,1403 @@
+# Created at 2022-09-27T23:06:31.646
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2022-09-27T23:06:37.169
+Unexpected IOException with stream: 2022-09-27 23:06:37.169  INFO 6076 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2022-09-27T23:06:37.169
+Unexpected IOException with stream: 2022-09-27 23:06:37.169  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2022-09-27T23:06:37.185
+Unexpected IOException with stream: 2022-09-27 23:06:37.185  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+
+
+# Created at 2022-09-27T23:06:37.265
+Unexpected IOException with stream: 2022-09-27 23:06:37.265  INFO 6076 --- [           main] c.j.c.ApplicationControllerTest          : Started ApplicationControllerTest in 12.176 seconds (JVM running for 22.399)
+
+
+# Created at 2022-09-27T23:06:37.298
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:37.677
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:37.677
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,testCreateApp,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.520
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,testCreateApp,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.520
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,testAppsByUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.568
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,testAppsByUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.568
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,testAppsByListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.615
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,testAppsByListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.615
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,testGetAppById,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.662
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,testGetAppById,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.662
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,testUpdateApp,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.693
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,testUpdateApp,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.709
+Unexpected IOException: 5,1,com.jobly.controllers.ApplicationControllerTest,testDeleteApp,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.740
+Unexpected IOException: 6,1,com.jobly.controllers.ApplicationControllerTest,testDeleteApp,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.740
+Unexpected IOException: 9,1,com.jobly.controllers.ApplicationControllerTest,unusedTest,null,Disabled until CreateApplicationTest is up!,null
+
+
+# Created at 2022-09-27T23:06:38.757
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.ApplicationControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.757
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.CompanyControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:38.757
+Unexpected IOException with stream: 2022-09-27 23:06:38.757  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jobly.controllers.CompanyControllerTest], using SpringBootContextLoader
+
+
+# Created at 2022-09-27T23:06:38.772
+Unexpected IOException with stream: 2022-09-27 23:06:38.772  INFO 6076 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jobly.controllers.CompanyControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-09-27T23:06:38.772
+Unexpected IOException with stream: 2022-09-27 23:06:38.772  INFO 6076 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jobly.controllers.CompanyControllerTest]: CompanyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-09-27T23:06:38.787
+Unexpected IOException with stream: 2022-09-27 23:06:38.787  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jobly.Main for test class com.jobly.controllers.CompanyControllerTest
+
+
+# Created at 2022-09-27T23:06:38.787
+Unexpected IOException with stream: 2022-09-27 23:06:38.787  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-09-27T23:06:38.787
+Unexpected IOException with stream: 2022-09-27 23:06:38.787  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@45f5fdd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53a7e677, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@33d9d098, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@24191de8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ac60f01, org.springframework.test.context.support.DirtiesContextTestExecutionListener@36bece70, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4b9e952f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@278427e9, org.springframework.test.context.event.EventPublishingTestExecutionListener@4d509a1f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ddd108b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32d5cbf2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3468192e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7d21fdde, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@189df3b9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@48b2103]
+
+
+# Created at 2022-09-27T23:06:38.805
+Unexpected IOException with stream: setUpBeforeClass() :: building test objects...
+
+
+# Created at 2022-09-27T23:06:38.884
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.0)
+
+
+# Created at 2022-09-27T23:06:38.900
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:38.915
+Unexpected IOException with stream: 2022-09-27 23:06:38.915  INFO 6076 --- [           main] c.j.controllers.CompanyControllerTest    : Starting CompanyControllerTest using Java 1.8.0_301 on LAPTOP-BJ889D6A with PID 6076 (started by 41180 in c:\Users\41180\OneDrive\Desktop\P2\P2\yon)
+
+
+# Created at 2022-09-27T23:06:38.915
+Unexpected IOException with stream: 2022-09-27 23:06:38.915  INFO 6076 --- [           main] c.j.controllers.CompanyControllerTest    : The following 1 profile is active: "prod"
+
+
+# Created at 2022-09-27T23:06:40.983
+Unexpected IOException with stream: 2022-09-27 23:06:40.983  INFO 6076 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2022-09-27T23:06:40.994
+Unexpected IOException with stream: 2022-09-27 23:06:40.983  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2022-09-27T23:06:41.002
+Unexpected IOException with stream: 2022-09-27 23:06:40.994  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+
+
+# Created at 2022-09-27T23:06:41.050
+Unexpected IOException with stream: 2022-09-27 23:06:41.050  INFO 6076 --- [           main] c.j.controllers.CompanyControllerTest    : Started CompanyControllerTest in 2.236 seconds (JVM running for 26.183)
+
+
+# Created at 2022-09-27T23:06:41.066
+Unexpected IOException: 5,1,com.jobly.controllers.CompanyControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.082
+Unexpected IOException: 6,1,com.jobly.controllers.CompanyControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.094
+Unexpected IOException: 5,1,com.jobly.controllers.CompanyControllerTest,testCreateCompany,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.145
+Unexpected IOException: 6,1,com.jobly.controllers.CompanyControllerTest,testCreateCompany,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.145
+Unexpected IOException: 5,1,com.jobly.controllers.CompanyControllerTest,testGetCompanyByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.176
+Unexpected IOException: 6,1,com.jobly.controllers.CompanyControllerTest,testGetCompanyByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.176
+Unexpected IOException: 5,1,com.jobly.controllers.CompanyControllerTest,testGetCompanyByName,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.208
+Unexpected IOException: 6,1,com.jobly.controllers.CompanyControllerTest,testGetCompanyByName,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.208
+Unexpected IOException: 5,1,com.jobly.controllers.CompanyControllerTest,testUpdateCompany,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.223
+Unexpected IOException: 6,1,com.jobly.controllers.CompanyControllerTest,testUpdateCompany,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.239
+Unexpected IOException: 5,1,com.jobly.controllers.CompanyControllerTest,testDeleteCompany,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.255
+Unexpected IOException: 6,1,com.jobly.controllers.CompanyControllerTest,testDeleteCompany,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.255
+Unexpected IOException: 9,1,com.jobly.controllers.CompanyControllerTest,unusedTest,null,Disabled until CreateApplicationTest is up!,null
+
+
+# Created at 2022-09-27T23:06:41.255
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.CompanyControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.270
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.JobListingControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:41.270
+Unexpected IOException with stream: 2022-09-27 23:06:41.270  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jobly.controllers.JobListingControllerTest], using SpringBootContextLoader
+
+
+# Created at 2022-09-27T23:06:41.270
+Unexpected IOException with stream: 2022-09-27 23:06:41.270  INFO 6076 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jobly.controllers.JobListingControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-09-27T23:06:41.270
+Unexpected IOException with stream: 2022-09-27 23:06:41.270  INFO 6076 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jobly.controllers.JobListingControllerTest]: JobListingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-09-27T23:06:41.302
+Unexpected IOException with stream: 2022-09-27 23:06:41.298  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jobly.Main for test class com.jobly.controllers.JobListingControllerTest
+
+
+# Created at 2022-09-27T23:06:41.310
+Unexpected IOException with stream: 2022-09-27 23:06:41.310  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-09-27T23:06:41.310
+Unexpected IOException with stream: 2022-09-27 23:06:41.310  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b338d8e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@44ead92c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6b84f2be, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@77f32f2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6047906e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@727606f3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e2b1b01, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@403d5694, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ca56a1d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5e26a6e4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@38b34d32, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@12103546, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2552409b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4e28c353, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6c50dd79]
+
+
+# Created at 2022-09-27T23:06:41.318
+Unexpected IOException with stream: setUpBeforeClass() :: building test objects...
+
+
+# Created at 2022-09-27T23:06:41.374
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:41.376
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-09-27T23:06:41.376
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-09-27T23:06:41.376
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-09-27T23:06:41.376
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-09-27T23:06:41.376
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-09-27T23:06:41.384
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-09-27T23:06:41.384
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.0)
+
+
+# Created at 2022-09-27T23:06:41.387
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:41.395
+Unexpected IOException with stream: 2022-09-27 23:06:41.395  INFO 6076 --- [           main] c.j.c.JobListingControllerTest           : Starting JobListingControllerTest using Java 1.8.0_301 on LAPTOP-BJ889D6A with PID 6076 (started by 41180 in c:\Users\41180\OneDrive\Desktop\P2\P2\yon)
+
+
+# Created at 2022-09-27T23:06:41.395
+Unexpected IOException with stream: 2022-09-27 23:06:41.395  INFO 6076 --- [           main] c.j.c.JobListingControllerTest           : The following 1 profile is active: "prod"
+
+
+# Created at 2022-09-27T23:06:43.304
+Unexpected IOException with stream: 2022-09-27 23:06:43.304  INFO 6076 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2022-09-27T23:06:43.320
+Unexpected IOException with stream: 2022-09-27 23:06:43.320  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2022-09-27T23:06:43.336
+Unexpected IOException with stream: 2022-09-27 23:06:43.336  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 16 ms
+
+
+# Created at 2022-09-27T23:06:43.399
+Unexpected IOException with stream: 2022-09-27 23:06:43.399  INFO 6076 --- [           main] c.j.c.JobListingControllerTest           : Started JobListingControllerTest in 2.08 seconds (JVM running for 28.538)
+
+
+# Created at 2022-09-27T23:06:43.480
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.504
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.512
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,testCreateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.575
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,testCreateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.575
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,testGetJoblistingByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.647
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,testGetJoblistingByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.647
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,testUpdateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.694
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,testUpdateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.703
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,testDeleteJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.735
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,testDeleteJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.743
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,testCreateJobListingStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.759
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,testCreateJobListingStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.759
+Unexpected IOException: 5,1,com.jobly.controllers.JobListingControllerTest,testDeleteJobListingStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.790
+Unexpected IOException: 6,1,com.jobly.controllers.JobListingControllerTest,testDeleteJobListingStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.790
+Unexpected IOException: 9,1,com.jobly.controllers.JobListingControllerTest,unusedTest,null,Disabled until CreateJobListingTest is up!,null
+
+
+# Created at 2022-09-27T23:06:43.805
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.JobListingControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.805
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.PlaceControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:43.805
+Unexpected IOException with stream: 2022-09-27 23:06:43.805  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jobly.controllers.PlaceControllerTest], using SpringBootContextLoader
+
+
+# Created at 2022-09-27T23:06:43.805
+Unexpected IOException with stream: 2022-09-27 23:06:43.805  INFO 6076 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jobly.controllers.PlaceControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-09-27T23:06:43.821
+Unexpected IOException with stream: 2022-09-27 23:06:43.805  INFO 6076 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jobly.controllers.PlaceControllerTest]: PlaceControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-09-27T23:06:43.837
+Unexpected IOException with stream: 2022-09-27 23:06:43.835  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jobly.Main for test class com.jobly.controllers.PlaceControllerTest
+
+
+# Created at 2022-09-27T23:06:43.837
+Unexpected IOException with stream: 2022-09-27 23:06:43.837  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-09-27T23:06:43.837
+Unexpected IOException with stream: 2022-09-27 23:06:43.837  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3d063972, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53e57cee, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@37e07b6f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8d4bf61, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@495daa0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c6fc4d0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@48e0f331, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@656272fb, org.springframework.test.context.event.EventPublishingTestExecutionListener@4f08e42d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4d43e058, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f5ebba, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7476a4b5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c571f9a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2e446168, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3c1e721]
+
+
+# Created at 2022-09-27T23:06:43.837
+Unexpected IOException with stream: setUpBeforeClass() :: building test objects...
+
+
+# Created at 2022-09-27T23:06:43.900
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:43.900
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-09-27T23:06:43.900
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-09-27T23:06:43.900
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-09-27T23:06:43.915
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-09-27T23:06:43.915
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-09-27T23:06:43.915
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-09-27T23:06:43.915
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.0)
+
+
+# Created at 2022-09-27T23:06:43.915
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:43.935
+Unexpected IOException with stream: 2022-09-27 23:06:43.933  INFO 6076 --- [           main] c.jobly.controllers.PlaceControllerTest  : Starting PlaceControllerTest using Java 1.8.0_301 on LAPTOP-BJ889D6A with PID 6076 (started by 41180 in c:\Users\41180\OneDrive\Desktop\P2\P2\yon)
+
+
+# Created at 2022-09-27T23:06:43.935
+Unexpected IOException with stream: 2022-09-27 23:06:43.935  INFO 6076 --- [           main] c.jobly.controllers.PlaceControllerTest  : The following 1 profile is active: "prod"
+
+
+# Created at 2022-09-27T23:06:45.137
+Unexpected IOException with stream: 2022-09-27 23:06:45.137  INFO 6076 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2022-09-27T23:06:45.137
+Unexpected IOException with stream: 2022-09-27 23:06:45.137  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2022-09-27T23:06:45.145
+Unexpected IOException with stream: 2022-09-27 23:06:45.145  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+
+
+# Created at 2022-09-27T23:06:45.196
+Unexpected IOException with stream: 2022-09-27 23:06:45.196  INFO 6076 --- [           main] c.jobly.controllers.PlaceControllerTest  : Started PlaceControllerTest in 1.343 seconds (JVM running for 30.332)
+
+
+# Created at 2022-09-27T23:06:45.212
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.224
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.232
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,testCreatePlace,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.248
+Unexpected IOException with stream: org.springframework.mock.web.MockHttpServletResponse@d52ab92
+
+# Created at 2022-09-27T23:06:45.258
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:45.258
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,testCreatePlace,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.258
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,testDeletePlaceStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.291
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,testDeletePlaceStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.291
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,testGetPlaceById,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.306
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,testGetPlaceById,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.306
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,testUpdatePlace,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.364
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,testUpdatePlace,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.364
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,testGetAllPlace,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.390
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,testGetAllPlace,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.398
+Unexpected IOException: 5,1,com.jobly.controllers.PlaceControllerTest,testGetAllByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.416
+Unexpected IOException: 6,1,com.jobly.controllers.PlaceControllerTest,testGetAllByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.424
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.PlaceControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.432
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.UserControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:45.432
+Unexpected IOException with stream: 2022-09-27 23:06:45.432  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jobly.controllers.UserControllerTest], using SpringBootContextLoader
+
+
+# Created at 2022-09-27T23:06:45.441
+Unexpected IOException with stream: 2022-09-27 23:06:45.432  INFO 6076 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jobly.controllers.UserControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-09-27T23:06:45.441
+Unexpected IOException with stream: 2022-09-27 23:06:45.441  INFO 6076 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jobly.controllers.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-09-27T23:06:45.441
+Unexpected IOException with stream: 2022-09-27 23:06:45.441  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jobly.Main for test class com.jobly.controllers.UserControllerTest
+
+
+# Created at 2022-09-27T23:06:45.456
+Unexpected IOException with stream: 2022-09-27 23:06:45.456  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-09-27T23:06:45.456
+Unexpected IOException with stream: 2022-09-27 23:06:45.456  INFO 6076 --- [           main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7b0453f4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f3245, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2dafdfe9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@286dce89, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71afa383, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8fb1ae9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5bf8cc88, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1da748f8, org.springframework.test.context.event.EventPublishingTestExecutionListener@11185374, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@41643fec, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ce537c4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7ba24428, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28723bdb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4809fa66, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3da7afb4]
+
+
+# Created at 2022-09-27T23:06:45.456
+Unexpected IOException with stream: setUpBeforeClass() :: building test objects...
+
+
+# Created at 2022-09-27T23:06:45.519
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:45.524
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-09-27T23:06:45.524
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-09-27T23:06:45.524
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-09-27T23:06:45.524
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-09-27T23:06:45.524
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-09-27T23:06:45.524
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-09-27T23:06:45.532
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.0)
+
+
+# Created at 2022-09-27T23:06:45.533
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:45.539
+Unexpected IOException with stream: 2022-09-27 23:06:45.539  INFO 6076 --- [           main] c.jobly.controllers.UserControllerTest   : Starting UserControllerTest using Java 1.8.0_301 on LAPTOP-BJ889D6A with PID 6076 (started by 41180 in c:\Users\41180\OneDrive\Desktop\P2\P2\yon)
+
+
+# Created at 2022-09-27T23:06:45.547
+Unexpected IOException with stream: 2022-09-27 23:06:45.547  INFO 6076 --- [           main] c.jobly.controllers.UserControllerTest   : The following 1 profile is active: "prod"
+
+
+# Created at 2022-09-27T23:06:47.724
+Unexpected IOException with stream: 2022-09-27 23:06:47.715  INFO 6076 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+
+
+# Created at 2022-09-27T23:06:47.731
+Unexpected IOException with stream: 2022-09-27 23:06:47.730  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+
+
+# Created at 2022-09-27T23:06:47.731
+Unexpected IOException with stream: 2022-09-27 23:06:47.731  INFO 6076 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+
+
+# Created at 2022-09-27T23:06:47.785
+Unexpected IOException with stream: 2022-09-27 23:06:47.785  INFO 6076 --- [           main] c.jobly.controllers.UserControllerTest   : Started UserControllerTest in 2.317 seconds (JVM running for 32.917)
+
+
+# Created at 2022-09-27T23:06:47.801
+Unexpected IOException: 5,1,com.jobly.controllers.UserControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.809
+Unexpected IOException: 6,1,com.jobly.controllers.UserControllerTest,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.817
+Unexpected IOException: 5,1,com.jobly.controllers.UserControllerTest,testCreateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.849
+Unexpected IOException with stream: org.springframework.mock.web.MockHttpServletResponse@2c2d6691
+
+# Created at 2022-09-27T23:06:47.849
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:47.857
+Unexpected IOException: 6,1,com.jobly.controllers.UserControllerTest,testCreateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.865
+Unexpected IOException: 5,1,com.jobly.controllers.UserControllerTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.885
+Unexpected IOException: 6,1,com.jobly.controllers.UserControllerTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.902
+Unexpected IOException: 5,1,com.jobly.controllers.UserControllerTest,testCreateUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.950
+Unexpected IOException: 6,1,com.jobly.controllers.UserControllerTest,testCreateUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:47.974
+Unexpected IOException: 5,1,com.jobly.controllers.UserControllerTest,testLoginUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:48.018
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.018
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2022-09-27T23:06:48.026
+Unexpected IOException with stream:       HTTP Method = POST
+
+
+# Created at 2022-09-27T23:06:48.026
+Unexpected IOException with stream:       Request URI = /api/User/login
+
+
+# Created at 2022-09-27T23:06:48.026
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2022-09-27T23:06:48.026
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Accept:"application/json", Content-Length:"279"]
+
+
+# Created at 2022-09-27T23:06:48.034
+Unexpected IOException with stream:              Body = {"id":2,"username":"jowill","firstname":"joel","lastname":"will","email":"jowill@gamil.com","password":"jowill","role":{"id":1,"role":"Applicant"},"company":{"id":1,"name":"Capgemini","email":"tech@capgemini.com","place":{"id":1,"city":"Dallas","state":"Texas","country":"USA"}}}
+
+
+# Created at 2022-09-27T23:06:48.034
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2022-09-27T23:06:48.034
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.034
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2022-09-27T23:06:48.034
+Unexpected IOException with stream:              Type = com.jobly.controllers.UserController
+
+
+# Created at 2022-09-27T23:06:48.034
+Unexpected IOException with stream:            Method = com.jobly.controllers.UserController#authenticateLogin(LoginRequest)
+
+
+# Created at 2022-09-27T23:06:48.041
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.041
+Unexpected IOException with stream: Async:
+
+
+# Created at 2022-09-27T23:06:48.041
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2022-09-27T23:06:48.041
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2022-09-27T23:06:48.050
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2022-09-27T23:06:48.057
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2022-09-27T23:06:48.057
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.066
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2022-09-27T23:06:48.066
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2022-09-27T23:06:48.074
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.078
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2022-09-27T23:06:48.078
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2022-09-27T23:06:48.078
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2022-09-27T23:06:48.078
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+
+
+# Created at 2022-09-27T23:06:48.078
+Unexpected IOException with stream:      Content type = null
+
+
+# Created at 2022-09-27T23:06:48.078
+Unexpected IOException with stream:              Body = 
+
+
+# Created at 2022-09-27T23:06:48.086
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2022-09-27T23:06:48.086
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2022-09-27T23:06:48.086
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2022-09-27T23:06:48.110
+Unexpected IOException: 8,1,com.jobly.controllers.UserControllerTest,testLoginUser,null,expected: <{"message":"CREATION SUCCESSFUL"}> but was: <>,null,expected: <{"message":"CREATION SUCCESSFUL"}> but was: <>,UserControllerTest.testLoginUser:200 expected: <{"message":"CREATION SUCCESSFUL"}> but was: <>,org.opentest4j.AssertionFailedError: expected: <{"message":"CREATION SUCCESSFUL"}> but was: <>\000A\0009at com.jobly.controllers.UserControllerTest.testLoginUser(UserControllerTest.java:200)\000A
+
+
+# Created at 2022-09-27T23:06:48.118
+Unexpected IOException: 5,1,com.jobly.controllers.UserControllerTest,testGetUserByEmail,null,null,null
+
+
+# Created at 2022-09-27T23:06:48.142
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.142
+Unexpected IOException with stream: MockHttpServletRequest:
+
+
+# Created at 2022-09-27T23:06:48.150
+Unexpected IOException with stream:       HTTP Method = GET
+
+
+# Created at 2022-09-27T23:06:48.150
+Unexpected IOException with stream:       Request URI = /api/User/findUserByEmail
+
+
+# Created at 2022-09-27T23:06:48.150
+Unexpected IOException with stream:        Parameters = {}
+
+
+# Created at 2022-09-27T23:06:48.150
+Unexpected IOException with stream:           Headers = [Content-Type:"application/json;charset=UTF-8", Accept:"application/json", Content-Length:"18"]
+
+
+# Created at 2022-09-27T23:06:48.158
+Unexpected IOException with stream:              Body = "jowill@gamil.com"
+
+
+# Created at 2022-09-27T23:06:48.158
+Unexpected IOException with stream:     Session Attrs = {}
+
+
+# Created at 2022-09-27T23:06:48.158
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.158
+Unexpected IOException with stream: Handler:
+
+
+# Created at 2022-09-27T23:06:48.158
+Unexpected IOException with stream:              Type = com.jobly.controllers.UserController
+
+
+# Created at 2022-09-27T23:06:48.158
+Unexpected IOException with stream:            Method = com.jobly.controllers.UserController#getUser(String)
+
+
+# Created at 2022-09-27T23:06:48.166
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.166
+Unexpected IOException with stream: Async:
+
+
+# Created at 2022-09-27T23:06:48.166
+Unexpected IOException with stream:     Async started = false
+
+
+# Created at 2022-09-27T23:06:48.166
+Unexpected IOException with stream:      Async result = null
+
+
+# Created at 2022-09-27T23:06:48.166
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.166
+Unexpected IOException with stream: Resolved Exception:
+
+
+# Created at 2022-09-27T23:06:48.174
+Unexpected IOException with stream:              Type = null
+
+
+# Created at 2022-09-27T23:06:48.174
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.174
+Unexpected IOException with stream: ModelAndView:
+
+
+# Created at 2022-09-27T23:06:48.174
+Unexpected IOException with stream:         View name = null
+
+
+# Created at 2022-09-27T23:06:48.174
+Unexpected IOException with stream:              View = null
+
+
+# Created at 2022-09-27T23:06:48.174
+Unexpected IOException with stream:             Model = null
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream: FlashMap:
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream:        Attributes = null
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream: MockHttpServletResponse:
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream:            Status = 200
+
+
+# Created at 2022-09-27T23:06:48.182
+Unexpected IOException with stream:     Error message = null
+
+
+# Created at 2022-09-27T23:06:48.190
+Unexpected IOException with stream:           Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+
+
+# Created at 2022-09-27T23:06:48.190
+Unexpected IOException with stream:      Content type = null
+
+
+# Created at 2022-09-27T23:06:48.190
+Unexpected IOException with stream:              Body = 
+
+
+# Created at 2022-09-27T23:06:48.190
+Unexpected IOException with stream:     Forwarded URL = null
+
+
+# Created at 2022-09-27T23:06:48.190
+Unexpected IOException with stream:    Redirected URL = null
+
+
+# Created at 2022-09-27T23:06:48.190
+Unexpected IOException with stream:           Cookies = []
+
+
+# Created at 2022-09-27T23:06:48.198
+Unexpected IOException: 8,1,com.jobly.controllers.UserControllerTest,testGetUserByEmail,null,expected: <{"id":2\002C"username":"jowill"\002C"firstname":"joel"\002C"lastname":"will"\002C"email":"jowill@gamil.com"\002C"password":"jowill"\002C"role":{"id":1\002C"role":"Applicant"}\002C"company":{"id":1\002C"name":"Capgemini"\002C"email":"tech@capgemini.com"\002C"place":{"id":1\002C"city":"Dallas"\002C"state":"Texas"\002C"country":"USA"}}}> but was: <>,null,expected: <{"id":2\002C"username":"jowill"\002C"firstname":"joel"\002C"lastname":"will"\002C"email":"jowill@gamil.com"\002C"password":"jowill"\002C"role":{"id":1\002C"role":"Applicant"}\002C"company":{"id":1\002C"name":"Capgemini"\002C"email":"tech@capgemini.com"\002C"place":{"id":1\002C"city":"Dallas"\002C"state":"Texas"\002C"country":"USA"}}}> but was: <>,UserControllerTest.testGetUserByEmail:213 expected: <{"id":2\002C"username":"jowill"\002C"firstname":"joel"\002C"lastname":"will"\002C"email":"jowill@gamil.com"\002C"password":"jowill"\002C"role":{"id":1\002C"role":"Applicant"}\002C"company":{"id":1\002C"name":"Capgemini"\002C"email":"tech@capgemini.com"\002C"place":{"id":1\002C"city":"Dallas"\002C"state":"Texas"\002C"country":"USA"}}}> but was: <>,org.opentest4j.AssertionFailedError: expected: <{"id":2\002C"username":"jowill"\002C"firstname":"joel"\002C"lastname":"will"\002C"email":"jowill@gamil.com"\002C"password":"jowill"\002C"role":{"id":1\002C"role":"Applicant"}\002C"company":{"id":1\002C"name":"Capgemini"\002C"email":"tech@capgemini.com"\002C"place":{"id":1\002C"city":"Dallas"\002C"state":"Texas"\002C"country":"USA"}}}> but was: <>\000A\0009at com.jobly.controllers.UserControllerTest.testGetUserByEmail(UserControllerTest.java:213)\000A
+
+
+# Created at 2022-09-27T23:06:48.198
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.controllers.UserControllerTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:48.234
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.ApplicationServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.139
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.285
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.293
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,testCreateApplication,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.301
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,testCreateApplication,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.308
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.308
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.324
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,testGetAllApplicant,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.327
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,testGetAllApplicant,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.327
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,testGetapplicationbyId,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.335
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,testGetapplicationbyId,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.335
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,testGetApplicationByUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.343
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,testGetApplicationByUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.351
+Unexpected IOException: 5,1,com.jobly.services.ApplicationServiceTest,testUpdateApplication,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.354
+Unexpected IOException: 6,1,com.jobly.services.ApplicationServiceTest,testUpdateApplication,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.359
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.ApplicationServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.359
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.ApplicationStatusServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.359
+Unexpected IOException: 5,1,com.jobly.services.ApplicationStatusServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.372
+Unexpected IOException: 6,1,com.jobly.services.ApplicationStatusServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.380
+Unexpected IOException: 5,1,com.jobly.services.ApplicationStatusServiceTest,testCreateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.388
+Unexpected IOException: 6,1,com.jobly.services.ApplicationStatusServiceTest,testCreateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.388
+Unexpected IOException: 5,1,com.jobly.services.ApplicationStatusServiceTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.396
+Unexpected IOException: 6,1,com.jobly.services.ApplicationStatusServiceTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.396
+Unexpected IOException: 5,1,com.jobly.services.ApplicationStatusServiceTest,testUpdateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.404
+Unexpected IOException: 6,1,com.jobly.services.ApplicationStatusServiceTest,testUpdateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.404
+Unexpected IOException: 5,1,com.jobly.services.ApplicationStatusServiceTest,testGetAllCandies,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.412
+Unexpected IOException: 6,1,com.jobly.services.ApplicationStatusServiceTest,testGetAllCandies,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.420
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.ApplicationStatusServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.460
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.JobListingServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.901
+Unexpected IOException: 5,1,com.jobly.services.JobListingServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.917
+Unexpected IOException: 6,1,com.jobly.services.JobListingServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.917
+Unexpected IOException: 5,1,com.jobly.services.JobListingServiceTest,testCreateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.917
+Unexpected IOException: 6,1,com.jobly.services.JobListingServiceTest,testCreateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.933
+Unexpected IOException: 5,1,com.jobly.services.JobListingServiceTest,testGetJobLisitngByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.933
+Unexpected IOException: 6,1,com.jobly.services.JobListingServiceTest,testGetJobLisitngByLocation,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.933
+Unexpected IOException: 5,1,com.jobly.services.JobListingServiceTest,testUpdateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.946
+Unexpected IOException: 6,1,com.jobly.services.JobListingServiceTest,testUpdateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.946
+Unexpected IOException: 5,1,com.jobly.services.JobListingServiceTest,testDeleteJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.954
+Unexpected IOException: 6,1,com.jobly.services.JobListingServiceTest,testDeleteJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.962
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.JobListingServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.962
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.ListingStatusServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.962
+Unexpected IOException: 5,1,com.jobly.services.ListingStatusServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.970
+Unexpected IOException: 6,1,com.jobly.services.ListingStatusServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.978
+Unexpected IOException: 5,1,com.jobly.services.ListingStatusServiceTest,testCreateListingStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.986
+Unexpected IOException: 6,1,com.jobly.services.ListingStatusServiceTest,testCreateListingStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.986
+Unexpected IOException: 5,1,com.jobly.services.ListingStatusServiceTest,testCreateListingStatusFailure,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.994
+Unexpected IOException: 6,1,com.jobly.services.ListingStatusServiceTest,testCreateListingStatusFailure,null,null,null
+
+
+# Created at 2022-09-27T23:06:49.994
+Unexpected IOException: 5,1,com.jobly.services.ListingStatusServiceTest,testGetAllLisitngStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.002
+Unexpected IOException: 6,1,com.jobly.services.ListingStatusServiceTest,testGetAllLisitngStatus,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.002
+Unexpected IOException: 5,1,com.jobly.services.ListingStatusServiceTest,testUpdateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.010
+Unexpected IOException: 6,1,com.jobly.services.ListingStatusServiceTest,testUpdateJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.018
+Unexpected IOException: 5,1,com.jobly.services.ListingStatusServiceTest,testDeleteJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.018
+Unexpected IOException: 6,1,com.jobly.services.ListingStatusServiceTest,testDeleteJobListing,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.026
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.ListingStatusServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.034
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.UserRoleServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.121
+Unexpected IOException: 5,1,com.jobly.services.UserRoleServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.121
+Unexpected IOException: 6,1,com.jobly.services.UserRoleServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.121
+Unexpected IOException: 5,1,com.jobly.services.UserRoleServiceTest,testCreateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.136
+Unexpected IOException: 6,1,com.jobly.services.UserRoleServiceTest,testCreateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.136
+Unexpected IOException: 5,1,com.jobly.services.UserRoleServiceTest,testGetUserRoleById,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.136
+Unexpected IOException: 6,1,com.jobly.services.UserRoleServiceTest,testGetUserRoleById,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.136
+Unexpected IOException: 5,1,com.jobly.services.UserRoleServiceTest,testGetAllUserRoles,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.136
+Unexpected IOException: 6,1,com.jobly.services.UserRoleServiceTest,testGetAllUserRoles,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.152
+Unexpected IOException: 5,1,com.jobly.services.UserRoleServiceTest,testUpdateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.152
+Unexpected IOException: 6,1,com.jobly.services.UserRoleServiceTest,testUpdateUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.152
+Unexpected IOException: 5,1,com.jobly.services.UserRoleServiceTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.152
+Unexpected IOException: 6,1,com.jobly.services.UserRoleServiceTest,testDeleteUserRole,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.152
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.UserRoleServiceTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.168
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.UserTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.168
+Unexpected IOException: 5,1,com.jobly.services.UserTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.175
+Unexpected IOException: 6,1,com.jobly.services.UserTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.175
+Unexpected IOException: 5,1,com.jobly.services.UserTest,testCreateUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.184
+Unexpected IOException: 6,1,com.jobly.services.UserTest,testCreateUser,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.184
+Unexpected IOException: 5,1,com.jobly.services.UserTest,testGetUserByemail,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.184
+Unexpected IOException: 6,1,com.jobly.services.UserTest,testGetUserByemail,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.184
+Unexpected IOException: 5,1,com.jobly.services.UserTest,testlogin,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.194
+Unexpected IOException: 6,1,com.jobly.services.UserTest,testlogin,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.194
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.UserTest,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.194
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.SpringBootApplicationTests,null,null,null
+
+
+# Created at 2022-09-27T23:06:50.202
+Unexpected IOException with stream: 2022-09-27 23:06:50.194  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jobly.SpringBootApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2022-09-27T23:06:50.202
+Unexpected IOException with stream: 2022-09-27 23:06:50.202  INFO 6076 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jobly.SpringBootApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2022-09-27T23:06:50.202
+Unexpected IOException with stream: 2022-09-27 23:06:50.202  INFO 6076 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jobly.SpringBootApplicationTests]: SpringBootApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2022-09-27T23:06:50.218
+Unexpected IOException with stream: 2022-09-27 23:06:50.218  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jobly.Main for test class com.jobly.SpringBootApplicationTests
+
+
+# Created at 2022-09-27T23:06:50.225
+Unexpected IOException with stream: 2022-09-27 23:06:50.225  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2022-09-27T23:06:50.225
+Unexpected IOException with stream: 2022-09-27 23:06:50.225  INFO 6076 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@39f47d72, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@202419ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7d6e2561, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3160f3ea, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2be51759, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2b8e183b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@27476506, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@110e3da7, org.springframework.test.context.event.EventPublishingTestExecutionListener@1252af00, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@49c632b1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@55b501da, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35b6edce, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@329b7ed7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4ab0818f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@37f6f2d2]
+
+
+# Created at 2022-09-27T23:06:50.338
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:50.338
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2022-09-27T23:06:50.338
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2022-09-27T23:06:50.338
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2022-09-27T23:06:50.338
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2022-09-27T23:06:50.346
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2022-09-27T23:06:50.346
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2022-09-27T23:06:50.346
+Unexpected IOException with stream:  :: Spring Boot ::                (v2.7.0)
+
+
+# Created at 2022-09-27T23:06:50.346
+Unexpected IOException with stream: 
+
+
+# Created at 2022-09-27T23:06:50.366
+Unexpected IOException with stream: 2022-09-27 23:06:50.366  INFO 6076 --- [           main] com.jobly.SpringBootApplicationTests     : Starting SpringBootApplicationTests using Java 1.8.0_301 on LAPTOP-BJ889D6A with PID 6076 (started by 41180 in c:\Users\41180\OneDrive\Desktop\P2\P2\yon)
+
+
+# Created at 2022-09-27T23:06:50.366
+Unexpected IOException with stream: 2022-09-27 23:06:50.366  INFO 6076 --- [           main] com.jobly.SpringBootApplicationTests     : The following 1 profile is active: "prod"
+
+
+# Created at 2022-09-27T23:06:52.034
+Unexpected IOException with stream: 2022-09-27 23:06:52.034  INFO 6076 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+
+# Created at 2022-09-27T23:06:52.364
+Unexpected IOException with stream: 2022-09-27 23:06:52.356  INFO 6076 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 278 ms. Found 8 JPA repository interfaces.
+
+
+# Created at 2022-09-27T23:06:56.588
+Unexpected IOException with stream: 2022-09-27 23:06:56.588  INFO 6076 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+
+# Created at 2022-09-27T23:06:56.828
+Unexpected IOException with stream: 2022-09-27 23:06:56.828  INFO 6076 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+
+
+# Created at 2022-09-27T23:06:57.086
+Unexpected IOException with stream: 2022-09-27 23:06:57.086  INFO 6076 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+
+
