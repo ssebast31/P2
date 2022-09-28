@@ -1,0 +1,80 @@
+2022-09-07 12:40:53 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication
+2022-09-07 12:44:53 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication()-started
+2022-09-07 12:49:15 INFO  tristan.controllers.ApplicationController:27 - ViewAll- ApplicationController started
+2022-09-07 12:49:15 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication()-started
+2022-09-07 12:55:55 INFO  tristan.controllers.ApplicationController:27 - ViewAll- ApplicationController started
+2022-09-07 12:55:55 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication()-started
+2022-09-07 12:55:56 INFO  tristan.services.ApplicationServiceImpl:47 - in application serviceImpl- getApplication()-ended 
+2022-09-07 12:55:56 INFO  tristan.controllers.ApplicationController:31 - ViewAll- ApplicationController ended
+2022-09-07 16:35:23 INFO  tristan.controllers.ApplicationController:27 - ViewAll- ApplicationController started
+2022-09-07 16:35:23 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication()-started
+2022-09-07 16:35:24 INFO  tristan.services.ApplicationServiceImpl:48 - in application serviceImpl- getApplication()-ended 
+2022-09-07 16:35:24 INFO  tristan.controllers.ApplicationController:31 - ViewAll- ApplicationController ended
+2022-09-07 16:37:33 INFO  tristan.controllers.ApplicationController:27 - ViewAll- ApplicationController started
+2022-09-07 16:37:33 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication()-started
+2022-09-07 16:37:33 INFO  tristan.services.ApplicationServiceImpl:47 - the list: []
+2022-09-07 16:37:33 INFO  tristan.services.ApplicationServiceImpl:48 - in application serviceImpl- getApplication()-ended 
+2022-09-07 16:37:33 INFO  tristan.controllers.ApplicationController:31 - ViewAll- ApplicationController ended
+2022-09-07 16:39:00 INFO  tristan.controllers.ApplicationController:27 - ViewAll- ApplicationController started
+2022-09-07 16:39:00 INFO  tristan.services.ApplicationServiceImpl:35 - in application serviceImpl- getApplication()-started
+2022-09-07 16:39:00 INFO  tristan.services.ApplicationServiceImpl:47 - the list: []
+2022-09-07 16:39:00 INFO  tristan.services.ApplicationServiceImpl:48 - in application serviceImpl- getApplication()-ended 
+2022-09-07 16:39:00 INFO  tristan.controllers.ApplicationController:31 - ViewAll- ApplicationController ended
+2022-09-07 21:28:57 INFO  tristan.controllers.PlaceController:26 - com.tristan.controllers.PlaceController  createPlace: started
+2022-09-07 21:28:58 INFO  tristan.controllers.PlaceController:30 - com.tristan.controllers.PlaceController  createPlace: ended
+2022-09-07 21:29:02 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  createCompany: started
+2022-09-07 21:32:42 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  createCompany: started
+2022-09-07 21:36:50 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started
+2022-09-07 21:42:24 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:42:25 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:42:53 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:42:53 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:42:55 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:42:55 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:45:13 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:45:13 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:45:36 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:45:36 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:45:43 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:45:43 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:45:56 INFO  tristan.controllers.UserController:32 - com.tristan.controllers.UserController  authenticateLogin: started
+2022-09-07 21:46:08 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started
+2022-09-07 21:50:01 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:50:01 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:50:21 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:50:21 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-07 21:50:27 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-07 21:50:27 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-08 13:32:08 INFO  tristan.controllers.PlaceController:26 - com.tristan.controllers.PlaceController  createPlace: started
+2022-09-08 13:32:09 INFO  tristan.controllers.PlaceController:30 - com.tristan.controllers.PlaceController  createPlace: ended
+2022-09-08 13:32:15 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  createCompany: started
+2022-09-08 13:32:36 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-08 13:32:36 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-08 13:36:14 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-08 13:36:14 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-08 13:44:48 INFO  tristan.controllers.ApplicationController:40 - ViewAll- ApplicationController started
+2022-09-08 13:44:48 INFO  tristan.services.ApplicationServiceImpl:30 - in application serviceImpl- getApplication()-started
+2022-09-08 13:44:49 INFO  tristan.services.ApplicationServiceImpl:42 - the list: []
+2022-09-08 13:44:49 INFO  tristan.services.ApplicationServiceImpl:43 - in application serviceImpl- getApplication()-ended 
+2022-09-08 13:44:49 INFO  tristan.controllers.ApplicationController:44 - ViewAll- ApplicationController ended
+2022-09-08 13:45:32 INFO  tristan.controllers.PlaceController:26 - com.tristan.controllers.PlaceController  deletePlace: started
+2022-09-08 13:45:33 INFO  tristan.controllers.PlaceController:30 - com.tristan.controllers.PlaceController  deletePlace: ended
+2022-09-08 13:45:37 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  createCompany: started
+2022-09-08 13:48:43 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  createCompany: started
+2022-09-08 13:49:29 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUser: started
+2022-09-08 13:54:12 INFO  tristan.controllers.PlaceController:26 - com.tristan.controllers.PlaceController  createPlace: started
+2022-09-08 13:54:12 INFO  tristan.controllers.PlaceController:30 - com.tristan.controllers.PlaceController  createPlace: ended
+2022-09-08 13:54:16 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  deleteCompany: started
+2022-09-08 14:07:44 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  deleteCompany: started
+2022-09-08 14:08:37 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  deleteCompany: started
+2022-09-08 14:09:38 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  deleteCompany: started
+2022-09-08 14:11:40 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  deleteCompany: started
+2022-09-08 14:12:06 INFO  tristan.controllers.CompanyController:41 - com.tristan.controllers.CompanyController  deleteCompany: started
+2022-09-08 14:12:06 INFO  tristan.controllers.CompanyController:45 - com.tristan.controllers.CompanyController  deleteCompany: ended
+2022-09-08 14:15:41 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  deleteUserRole: started
+2022-09-08 14:49:48 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started
+2022-09-08 14:50:40 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started
+2022-09-08 14:50:48 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started
+2022-09-08 14:55:40 INFO  tristan.controllers.UserController:32 - com.tristan.controllers.UserController  authenticateLogin: started
+2022-09-08 14:57:00 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started
+2022-09-08 14:59:37 INFO  tristan.controllers.UserController:61 - com.tristan.controllers.UserController  createUserRole: started

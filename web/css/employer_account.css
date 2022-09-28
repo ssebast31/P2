@@ -1,0 +1,123 @@
+
+ 
+ .body {
+    background-color: rgb(255, 255, 255) !important;
+ }
+ 
+ .card{
+    background-color: rgb(255, 255, 255) !important;
+    width: 80% !important;
+    border:none !important;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    min-height: 200px;
+ }
+ 
+ .btr{
+    border-top-right-radius: 5px !important;
+ }
+  
+ .btl{
+    border-top-left-radius: 5px !important;
+    background-color: rgb(33, 15, 15);
+ }
+  
+ .btn-dark {
+    color: #fff!important;
+    background-color: #454545!important;
+    border-color: #00000040!important;
+ }
+  
+ .btn-dark:hover {
+    color: rgb(47, 47, 47)!important;
+    background-color: #ffae00!important;
+    border-color: #cb730056!important;
+ }
+  
+ .nav-pills{
+    display:table !important;
+    width:100%;
+ }
+  
+ .nav-pills .nav-link {
+    border-radius: 0px;
+    border-bottom: 1px solid #00000068 !important;
+ }
+ 
+ .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: rgb(45, 45, 45) !important;
+    background-color: #ffae00 !important;
+  }
+ 
+  .nav-pills .nav-link {
+    color: rgb(56, 56, 56);
+  }
+  .nav-pills .nav-link:hover {
+    color: #ffae00;
+  }
+ 
+  #pills-profile-tag {
+    color: rgb(241, 240, 240) !important;
+  }
+  
+ .nav-item{
+    display: table-cell;
+ }
+  
+ .form{
+    padding: 10px;
+ }
+  
+ .form input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    background-color: rgb(242, 242, 242);
+    border-color: #d4d4d468;
+    color: #00000068;
+ }
+
+ .form input{
+    margin-bottom: 12px;
+    border-radius: 30px;
+    background-color: rgb(242, 242, 242);
+    border-color: #d4d4d468;
+    color: #00000068;
+ }
+  
+ .form button{
+    margin-top: 20px;
+ }
+ 
+ .form-check {
+    color: #ffffff68;
+    padding-bottom: 13px;
+ }
+ 
+ .form-check-input:checked {
+    background-color: rgb(45, 45, 45) !important;
+    border-color: #ffae00 !important;
+  }
+  
+.form input::placeholder {
+    color: rgb(205, 205, 205);
+    opacity: 1
+}
+
+.form textarea::placeholder {
+   color: rgb(205, 205, 205);
+   opacity: 1
+}
+
+.form textarea {
+   border-radius: 10px;
+   background-color: rgb(242, 242, 242);
+   border-color: #d4d4d468;
+   color: #00000068;
+}
+
+.form input {
+   width: 300px;
+}
+
+
+
