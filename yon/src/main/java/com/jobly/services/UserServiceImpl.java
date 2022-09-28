@@ -68,26 +68,5 @@ public class UserServiceImpl implements UserService {
 		//return urepo.findUserByEmail(email);
 	}
 
-	@Override
-	public User updateUser(User user) {
-				User target = urepo.getReferenceById(user.getId());
-				if (user.getFirstname() != null) {
-					target.setFirstname(user.getFirstname());
-				}
-				
-				if (user.getLastname() != null) {
-					target.setLastname(user.getLastname());
-				}
-				
-				if (user.getEmail() != null) {
-					target.setEmail(user.getEmail());
-				}
-				
-				if (user.getPassword() != null) {
-					target.setPassword(user.getPassword());
-				}
-				
-				User result = urepo.save(target);
-				return (result != null && target.getId() == result.getId()) ? result : null;
-	}
+	
 }

@@ -96,16 +96,5 @@ public class UserTest {
 		//act + assert step
 		assertEquals(u1, cserv.login("jowill","jowill"));
 	}
-	@Test
-	@Order(5)
-	@DisplayName("5. Update Email  Test")
-	void testupdateuser() {
-		u2.setId(2);
-		u2.setEmail("jowill89@gmail.com");
-		
-		when(cserv.getUser(2)).thenReturn(u2);
-		when(mockdao.save(u2)).thenReturn(u2);
-		
-		assertEquals(true, cserv.updateUser(u2));
-	}
+	
 }

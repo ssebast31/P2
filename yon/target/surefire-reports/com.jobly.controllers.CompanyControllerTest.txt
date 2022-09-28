@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.jobly.controllers.CompanyControllerTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 5.881 s - in com.jobly.controllers.CompanyControllerTest

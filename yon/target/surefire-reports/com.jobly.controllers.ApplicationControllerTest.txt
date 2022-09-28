@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.jobly.controllers.ApplicationControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 24.345 s - in com.jobly.controllers.ApplicationControllerTest

@@ -1,0 +1,14 @@
+com\jobly\services\UserRoleServiceTest.class
+com\jobly\controllers\UserControllerTest.class
+com\jobly\controllers\CompanyControllerTest.class
+com\jobly\controllers\JobListingControllerTest.class
+com\jobly\controllers\ApplicationControllerTest.class
+com\jobly\controllers\PlaceControllerTest.class
+com\jobly\SpringBootApplicationTests.class
+com\jobly\services\CompanyServiceTests.class
+com\jobly\services\ApplicationServiceTest.class
+com\jobly\services\JobListingServiceTest.class
+com\jobly\services\ApplicationStatusServiceTest.class
+com\jobly\services\UserTest.class
+com\jobly\services\ListingStatusServiceTest.class
+com\jobly\services\PlaceServiceTest.class

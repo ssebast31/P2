@@ -201,20 +201,6 @@ public class UserControllerTest {
 				result.getResponse().getContentAsString());
 	}
     @Test
-	@Order(6)
-	@DisplayName("6. Update an Existing User")
-	// @Disabled("Disabled until CreateCandyTest is up!")
-	public void testUpdateJobListing() throws Exception {
-		when(service.updateUser(mockUserModification)).thenReturn(true);
-		RequestBuilder request = MockMvcRequestBuilders.put("/api/User/update")
-				.accept(MediaType.APPLICATION_JSON_VALUE)
-				.content(om.writeValueAsString(mockUserModification))
-				.contentType(MediaType.APPLICATION_JSON);
-		MvcResult result = mockmvc.perform(request).andReturn();
-		assertEquals(om.writeValueAsString(UPDATE_SUCCESSFUL),
-				result.getResponse().getContentAsString());
-	}
-    @Test
 	@Order(7)
 	@DisplayName("7. Get User by Email")
 	public void testGetUserByEmail() throws Exception {

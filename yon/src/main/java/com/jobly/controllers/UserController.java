@@ -71,11 +71,6 @@ public class UserController {
 		return uservice.login(lr.getIdentifier(), lr.getPassword());
 	}
 	
-	//update method
-	@PostMapping("/update")
-	public @ResponseBody User updateUser(@RequestBody User user) {
-		return uservice.updateUser(user);
-	}
 
 	//get method
 	@GetMapping("/findUserByEmail")

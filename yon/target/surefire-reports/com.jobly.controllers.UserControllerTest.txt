@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jobly.controllers.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.82 s <<< FAILURE! - in com.jobly.controllers.UserControllerTest
+testLoginUser  Time elapsed: 0.244 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"message":"CREATION SUCCESSFUL"}> but was: <>
+	at com.jobly.controllers.UserControllerTest.testLoginUser(UserControllerTest.java:200)
+
+testGetUserByEmail  Time elapsed: 0.095 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"id":2,"username":"jowill","firstname":"joel","lastname":"will","email":"jowill@gamil.com","password":"jowill","role":{"id":1,"role":"Applicant"},"company":{"id":1,"name":"Capgemini","email":"tech@capgemini.com","place":{"id":1,"city":"Dallas","state":"Texas","country":"USA"}}}> but was: <>
+	at com.jobly.controllers.UserControllerTest.testGetUserByEmail(UserControllerTest.java:213)
+
