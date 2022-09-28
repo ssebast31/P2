@@ -23,4 +23,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package "c:\Users\41180\OneDrive\Desktop\P2\P2\yon\" pom.xml
+      run: mvn -B package ---P2\P2\yon\file pom.xml

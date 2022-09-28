@@ -1401,3 +1401,187 @@ Unexpected IOException with stream: 2022-09-27 23:06:56.828  INFO 6076 --- [    
 Unexpected IOException with stream: 2022-09-27 23:06:57.086  INFO 6076 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
 
 
+# Created at 2022-09-27T23:06:59.509
+Unexpected IOException with stream: 2022-09-27 23:06:59.509  INFO 6076 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2022-09-27T23:07:05.175
+Unexpected IOException with stream: 2022-09-27 23:07:05.167  INFO 6076 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2022-09-27T23:07:05.527
+Unexpected IOException with stream: 2022-09-27 23:07:05.519  INFO 6076 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+# Created at 2022-09-27T23:07:11.626
+Unexpected IOException with stream: Hibernate: alter table applications drop constraint FKgi56fay19nbaiamp5xyhd7ptc
+
+
+# Created at 2022-09-27T23:07:11.704
+Unexpected IOException with stream: Hibernate: alter table applications drop constraint FKntfxu2529bkttgby1l64fghjo
+
+
+# Created at 2022-09-27T23:07:11.735
+Unexpected IOException with stream: Hibernate: alter table applications drop constraint FKf4klnbjkahk3c79jkw928nmi8
+
+
+# Created at 2022-09-27T23:07:11.780
+Unexpected IOException with stream: Hibernate: alter table companies drop constraint FKdxmbiknclrdgpmvbvo5tohf2x
+
+
+# Created at 2022-09-27T23:07:11.828
+Unexpected IOException with stream: Hibernate: alter table job_listing drop constraint FKb1eqcr8jeq3tj63e6lw80ejem
+
+
+# Created at 2022-09-27T23:07:11.861
+Unexpected IOException with stream: Hibernate: alter table job_listing drop constraint FKbrvwer0w5xhdtnre8ug6gvtwx
+
+
+# Created at 2022-09-27T23:07:11.892
+Unexpected IOException with stream: Hibernate: alter table job_listing drop constraint FKb0k5f7xayutkx2lhjodvjsqjd
+
+
+# Created at 2022-09-27T23:07:11.938
+Unexpected IOException with stream: Hibernate: alter table users drop constraint FKin8gn4o1hpiwe6qe4ey7ykwq7
+
+
+# Created at 2022-09-27T23:07:11.979
+Unexpected IOException with stream: Hibernate: alter table users drop constraint FKsy1luwgtc2qas77si4xlrkjtl
+
+
+# Created at 2022-09-27T23:07:12.018
+Unexpected IOException with stream: Hibernate: drop table if exists application_status cascade
+
+
+# Created at 2022-09-27T23:07:12.060
+Unexpected IOException with stream: Hibernate: drop table if exists applications cascade
+
+
+# Created at 2022-09-27T23:07:12.113
+Unexpected IOException with stream: Hibernate: drop table if exists companies cascade
+
+
+# Created at 2022-09-27T23:07:12.158
+Unexpected IOException with stream: Hibernate: drop table if exists job_listing cascade
+
+
+# Created at 2022-09-27T23:07:12.205
+Unexpected IOException with stream: Hibernate: drop table if exists listing_status cascade
+
+
+# Created at 2022-09-27T23:07:12.237
+Unexpected IOException with stream: Hibernate: drop table if exists places cascade
+
+
+# Created at 2022-09-27T23:07:12.293
+Unexpected IOException with stream: Hibernate: drop table if exists user_roles cascade
+
+
+# Created at 2022-09-27T23:07:12.333
+Unexpected IOException with stream: Hibernate: drop table if exists users cascade
+
+
+# Created at 2022-09-27T23:07:12.382
+Unexpected IOException with stream: Hibernate: drop sequence if exists hibernate_sequence
+
+
+# Created at 2022-09-27T23:07:12.451
+Unexpected IOException with stream: Hibernate: create sequence hibernate_sequence start 1 increment 1
+
+
+# Created at 2022-09-27T23:07:12.497
+Unexpected IOException with stream: Hibernate: create table application_status (status_id int8 not null, status varchar(255) not null, primary key (status_id))
+
+
+# Created at 2022-09-27T23:07:12.545
+Unexpected IOException with stream: Hibernate: create table applications (application_id int8 not null, resume oid, applicant_id int8 not null, listing_id int8 not null, status_id int8, primary key (application_id))
+
+
+# Created at 2022-09-27T23:07:12.589
+Unexpected IOException with stream: Hibernate: create table companies (company_id int8 not null, email varchar(255) not null, company_name varchar(255) not null, place_id int8, primary key (company_id))
+
+
+# Created at 2022-09-27T23:07:12.653
+Unexpected IOException with stream: Hibernate: create table job_listing (listing_id int8 not null, job_description varchar(255) not null, company_id int8 not null, place_id int8 not null, status_id int8 not null, primary key (listing_id))
+
+
+# Created at 2022-09-27T23:07:12.693
+Unexpected IOException with stream: Hibernate: create table listing_status (status_id int8 not null, status varchar(255) not null, primary key (status_id))
+
+
+# Created at 2022-09-27T23:07:12.745
+Unexpected IOException with stream: Hibernate: create table places (place_id int8 not null, city varchar(255) not null, country varchar(255) not null, state varchar(255), primary key (place_id))
+
+
+# Created at 2022-09-27T23:07:12.793
+Unexpected IOException with stream: Hibernate: create table user_roles (user_role_id int8 not null, user_role varchar(255) not null, primary key (user_role_id))
+
+
+# Created at 2022-09-27T23:07:12.836
+Unexpected IOException with stream: Hibernate: create table users (user_id int8 not null, email varchar(255) not null, firstname varchar(255), lastname varchar(255), password varchar(255) not null, username varchar(255) not null, company_id int8, user_role_id int8 not null, primary key (user_id))
+
+
+# Created at 2022-09-27T23:07:12.888
+Unexpected IOException with stream: Hibernate: alter table application_status add constraint UKbdgrcf3hsa2d6tax7vrgvpv66 unique (status)
+
+
+# Created at 2022-09-27T23:07:12.931
+Unexpected IOException with stream: Hibernate: alter table companies add constraint UKhj46lf87q00ohfd02njib276u unique (company_name)
+
+
+# Created at 2022-09-27T23:07:12.976
+Unexpected IOException with stream: Hibernate: alter table listing_status add constraint UKcac4lcdrfg70of55r1wgx11so unique (status)
+
+
+# Created at 2022-09-27T23:07:13.024
+Unexpected IOException with stream: Hibernate: alter table user_roles add constraint UKrugkpw7pl5sbp621x8701wyo1 unique (user_role)
+
+
+# Created at 2022-09-27T23:07:13.072
+Unexpected IOException with stream: Hibernate: alter table users add constraint UKfnranlqhubvw04boopn028e6 unique (email, username)
+
+
+# Created at 2022-09-27T23:07:13.112
+Unexpected IOException with stream: Hibernate: alter table applications add constraint FKgi56fay19nbaiamp5xyhd7ptc foreign key (applicant_id) references users
+
+
+# Created at 2022-09-27T23:07:13.152
+Unexpected IOException with stream: Hibernate: alter table applications add constraint FKntfxu2529bkttgby1l64fghjo foreign key (listing_id) references job_listing
+
+
+# Created at 2022-09-27T23:07:13.202
+Unexpected IOException with stream: Hibernate: alter table applications add constraint FKf4klnbjkahk3c79jkw928nmi8 foreign key (status_id) references application_status
+
+
+# Created at 2022-09-27T23:07:13.237
+Unexpected IOException with stream: Hibernate: alter table companies add constraint FKdxmbiknclrdgpmvbvo5tohf2x foreign key (place_id) references places
+
+
+# Created at 2022-09-27T23:07:13.297
+Unexpected IOException with stream: Hibernate: alter table job_listing add constraint FKb1eqcr8jeq3tj63e6lw80ejem foreign key (company_id) references companies
+
+
+# Created at 2022-09-27T23:07:13.337
+Unexpected IOException with stream: Hibernate: alter table job_listing add constraint FKbrvwer0w5xhdtnre8ug6gvtwx foreign key (place_id) references places
+
+
+# Created at 2022-09-27T23:07:13.379
+Unexpected IOException with stream: Hibernate: alter table job_listing add constraint FKb0k5f7xayutkx2lhjodvjsqjd foreign key (status_id) references listing_status
+
+
+# Created at 2022-09-27T23:07:13.417
+Unexpected IOException with stream: Hibernate: alter table users add constraint FKin8gn4o1hpiwe6qe4ey7ykwq7 foreign key (company_id) references companies
+
+
+# Created at 2022-09-27T23:07:13.462
+Unexpected IOException with stream: Hibernate: alter table users add constraint FKsy1luwgtc2qas77si4xlrkjtl foreign key (user_role_id) references user_roles
+
+
+# Created at 2022-09-27T23:07:13.513
+Unexpected IOException with stream: 2022-09-27 23:07:13.513  INFO 6076 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2022-09-27T23:07:13.617
+Unexpected IOException with stream: 2022-09-27 23:07:13.609  INFO 6076 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
