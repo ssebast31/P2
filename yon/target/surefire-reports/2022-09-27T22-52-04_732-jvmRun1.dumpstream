@@ -191,3 +191,143 @@ Unexpected IOException with stream: 2022-09-27 22:53:38.525  INFO 2356 --- [    
 Unexpected IOException with stream: 2022-09-27 22:53:49.844  WARN 2356 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 
 
+# Created at 2022-09-27T22:53:51.789
+Unexpected IOException with stream: 2022-09-27 22:53:51.789  INFO 2356 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://project2.chggccvll6es.us-west-1.rds.amazonaws.com/postgres'
+
+
+# Created at 2022-09-27T22:53:54.309
+Unexpected IOException with stream: 2022-09-27 22:53:54.309  INFO 2356 --- [           main] com.jobly.SpringBootApplicationTests     : Started SpringBootApplicationTests in 41.114 seconds (JVM running for 103.343)
+
+
+# Created at 2022-09-27T22:53:54.365
+Unexpected IOException: 5,1,com.jobly.SpringBootApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.401
+Unexpected IOException: 6,1,com.jobly.SpringBootApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.405
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.SpringBootApplicationTests,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.529
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.CompanyServiceTests,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.575
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkGetByName,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.591
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkGetByName,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.591
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkCreatePlace,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.599
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkCreatePlace,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.599
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkGetByID,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.607
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkGetByID,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.607
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkUpdateCompany,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.615
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkUpdateCompany,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.623
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.623
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.631
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkGetCompaniesByLocation,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.639
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkGetCompaniesByLocation,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.639
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkGetAllCompanies,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.647
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkGetAllCompanies,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.647
+Unexpected IOException: 5,1,com.jobly.services.CompanyServiceTests,checkDeleteCompany,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.655
+Unexpected IOException: 6,1,com.jobly.services.CompanyServiceTests,checkDeleteCompany,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.663
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.CompanyServiceTests,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.663
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.PlaceServiceTest,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.671
+Unexpected IOException: 5,1,com.jobly.services.PlaceServiceTest,checkCreatePlace,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.679
+Unexpected IOException: 6,1,com.jobly.services.PlaceServiceTest,checkCreatePlace,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.679
+Unexpected IOException: 5,1,com.jobly.services.PlaceServiceTest,checkGetById,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.687
+Unexpected IOException: 6,1,com.jobly.services.PlaceServiceTest,checkGetById,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.687
+Unexpected IOException: 5,1,com.jobly.services.PlaceServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.695
+Unexpected IOException: 6,1,com.jobly.services.PlaceServiceTest,checkMockInjection,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.695
+Unexpected IOException: 5,1,com.jobly.services.PlaceServiceTest,checkGetAllPlaces,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.703
+Unexpected IOException: 6,1,com.jobly.services.PlaceServiceTest,checkGetAllPlaces,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.711
+Unexpected IOException: 5,1,com.jobly.services.PlaceServiceTest,checkDeletePlace,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.711
+Unexpected IOException: 6,1,com.jobly.services.PlaceServiceTest,checkDeletePlace,null,null,null
+
+
+# Created at 2022-09-27T22:53:54.711
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.jobly.services.PlaceServiceTest,null,null,null
+
+
