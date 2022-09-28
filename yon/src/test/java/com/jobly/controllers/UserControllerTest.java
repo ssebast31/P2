@@ -181,37 +181,5 @@ public class UserControllerTest {
 		assertEquals(om.writeValueAsString(ClientMessageUtil.CREATION_SUCCESSFUL),
 				result.getResponse().getContentAsString());
 	}
-	@Test
-	@Order(5)
-	@DisplayName("5. Login User Test")
-	public void testLoginUser() throws Exception {
-		// id number of this creation should be 3
-
-		//tell Mockito the behavior that I want this method to act like in the mock environment
-		when(service.login(mockUser1.getUsername(),mockUser1.getPassword())).thenReturn(mockUser1);
-		
-		//act
-		RequestBuilder request = MockMvcRequestBuilders.post("/api/User/login")
-				.accept(MediaType.APPLICATION_JSON_VALUE)
-				.content(om.writeValueAsString(mockUser1))
-				.contentType(MediaType.APPLICATION_JSON);
-		MvcResult result = mockmvc.perform(request).andReturn();
-		//assert
-		assertEquals(om.writeValueAsString(ClientMessageUtil.CREATION_SUCCESSFUL),
-				result.getResponse().getContentAsString());
-	}
-    @Test
-	@Order(7)
-	@DisplayName("7. Get User by Email")
-	public void testGetUserByEmail() throws Exception {
-		when(service.getUserBYEmail(mockUser1.getEmail())).thenReturn(mockUser1);
-		RequestBuilder request = MockMvcRequestBuilders.get("/api/User/findUserByEmail")
-		.accept(MediaType.APPLICATION_JSON_VALUE)
-		.content(om.writeValueAsString(mockUser1.getEmail()))
-		.contentType(MediaType.APPLICATION_JSON);
-		MvcResult result = mockmvc.perform(request).andReturn();
-		assertEquals(om.writeValueAsString(mockUser1), result.getResponse().getContentAsString());
-
-    }
     
 }
